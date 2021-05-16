@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import Routes from './components/globals/Routes';
 
 const App = () => {
   return (
-    <h1>Recaura</h1>
+    <Routes />
   )
 }
 
