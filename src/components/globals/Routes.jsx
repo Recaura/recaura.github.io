@@ -6,12 +6,12 @@ import HomePage from '../home/HomePage';
 export default function Routes() {
   return (
     <Switch>
-      <Route exact path={['/', '/home']}>
-        <HomePage />
-        {/* <PrivacyPolicyPage /> */}
-      </Route>
       <Route path="/privacy-policy">
         <PrivacyPolicyPage />
+      </Route>
+      <Route path={['/', '/home']}>
+        <HomePage />
+        {/* <PrivacyPolicyPage /> */}
       </Route>
     </Switch>
   );
