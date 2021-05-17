@@ -838,16 +838,7 @@ function PrivacyPolicyPage() {
         Us:
       </p>
       <ul>
-        <li>
-          By email:{' '}
-          <a
-            href="/cdn-cgi/l/email-protection"
-            class="__cf_email__"
-            data-cfemail="9ff7faf3f3f0dfedfafcfeeaedfeb1fcf0f2"
-          >
-            [email&#160;protected]
-          </a>
-        </li>
+        <li>By email: hello@recaura.com</li>
       </ul>
       <p>
         Only You, or a person registered with the California Secretary of State that You authorize to act on Your
@@ -954,9 +945,7 @@ function PrivacyPolicyPage() {
       <h1>Contact Us</h1>
       <p>If you have any questions about this Privacy Policy, You can contact us:</p>
       <ul>
-        <li>
-          By email: <a>hello@recaura.com</a>
-        </li>
+        <li>By email: hello@recaura.com</li>
       </ul>
     </>
   );

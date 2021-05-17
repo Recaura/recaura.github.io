@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route } from 'react-router-dom';
 import PrivacyPolicyPage from '../legal/PrivacyPolicyPage.jsx';
 import HomePage from '../home/HomePage';
 
@@ -8,6 +8,7 @@ export default function Routes() {
     <Switch>
       <Route exact path={['/', '/home']}>
         <HomePage />
+        {/* <PrivacyPolicyPage /> */}
       </Route>
       <Route path="/privacy-policy">
         <PrivacyPolicyPage />
